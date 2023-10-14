@@ -28,7 +28,12 @@ function Home() {
                 >Alexander J. Poy</strong>
               </h1>
 
+              <h1 style={{ paddingBottom: 15 }} className="heading">
+                Software Developer
+              </h1>
+
               <div style={{ padding: 50, textAlign: "left" }}>
+                HTML | CSS | Javascript | React <br/>
                 {/* <Type /> */}
               </div>
             </Col>

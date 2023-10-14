@@ -10,7 +10,7 @@ import Toolstack from "./Toolstack";
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -26,13 +26,13 @@ function About() {
             </h1> */}
             <Aboutcard />
           </Col>
-          <Col
+          {/* <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
+          </Col> */}
         </Row>
         {/* <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>

@@ -15,11 +15,11 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            {/* <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple"> INTRODUCTION </span>
-            </h1>
+            </h1> */}
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+              {/* I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
@@ -49,13 +49,13 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
+            {/* <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            </Tilt> */}
           </Col>
         </Row>
         <Row>
